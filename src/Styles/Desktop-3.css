@@ -1,0 +1,47 @@
+.card , .teamMembersCol{
+    border: none;
+}
+.rowD3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3rem 0rem;
+
+}
+.card{
+    padding: 2rem;
+}
+.card-img-outer ,.card-text{
+    margin: .8rem 0rem;
+}
+.hD3,.searchbar{
+padding: 1rem 0rem;
+}
+.newsletterMain{
+    background-color: #023047;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0rem;
+
+}
+
+.news-heading,.news-heading-btn{
+    font-size: 2.5rem;
+    padding: 0rem 1rem;
+    color: white;
+}
+.news-heading-btn{
+    border-radius: 1rem;
+
+}
+.form-control{
+    padding: 1rem ;
+    font-size: 1.8rem;
+    border-radius: 5rem;
+
+}
+p{
+    margin: 0rem;
+}

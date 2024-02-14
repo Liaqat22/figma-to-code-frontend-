@@ -1,0 +1,39 @@
+
+.bg-img, .gradientImg{
+    min-height: 50rem;
+}
+.bg-img{
+    background-image: url("../Media/images/Rectangle\ 37.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gradientImg{
+    background-image: url("../Media/images/Rectangle\ 46.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+padding: 1rem;
+}
+
+.social-icons{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    padding: 3rem 2rem;
+    font-size: 5rem;
+    color: aliceblue;
+}
+
+.heading{
+    font-size: 3rem;
+}
+.text{
+    font-size: 1.4rem;
+}

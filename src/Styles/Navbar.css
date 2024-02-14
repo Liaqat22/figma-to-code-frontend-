@@ -1,0 +1,15 @@
+.navbar-brand ,.brandLogo{
+    font-size: 4rem;
+    display: flex;
+    align-items: baseline;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+font-size: 2rem;
+color: white;
+border-right: .2rem solid #b96608;
+padding: 0rem 1rem;
+}
+.navbar{
+    padding: 1.5rem 2rem;
+
+}

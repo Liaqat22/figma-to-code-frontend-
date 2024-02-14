@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Alex Brush', cursive;
+font-family: 'Rajdhani', sans-serif; */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container-fluid {
+  padding: 0rem;
+}
+
+.rows {
+  padding: 3rem 2rem;
+  margin: 0rem;
+}
+
+.col-md-3 {
+  text-align: center;
+  border-right: .2rem solid #b96608;
+  padding: 0rem 1rem;
+  margin: 2rem 0rem;
+
+}
+
+.col-md-4,
+.col-md-2,
+.margin2TB {
+  margin: 1.5rem 0rem;
+}
+
+.navres {
+  display: none;
+}
+
+.offcanvas-nav-link,
+.btn-close {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  text-decoration: none;
+
+}
+
+.offcanvas {
+  background: linear-gradient(257deg, #5c3304, #00ff4e45, #50405080, transparent);
+  backdrop-filter: blur(2px);
+  border: none;
+  color: white;
+  width: fit-content;
+  transition: .3s;
+
+}
+
+.navresrow {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ======================================= Desktop-1 ========================================================================== */
+/* ======================================= Desktop-2 ========================================================================== */
+
+.rowblue {
+  background-color: #072534;
+  height: 15rem;
+  width: 52rem;
+  position: relative;
+  bottom: 4rem;
+}
+
+.iconImg {
+  width: 9rem;
+}
+
+.laptopImg {
+  height: 30rem;
+
+}
+
+.paraText {
+  font-size: 2rem;
+}
+
+/* ======================================= Desktop-3 ========================================================================== */
+.newstext {
+  padding: 2rem;
+  color: white;
+  width: 60%;
+}
+
+.formSerchbar {
+  display: flex;
+}
+
+/* ======================================= media quries========================================================================== */
+@media screen and (min-width:300px) and (max-width:430px) {
+  html {
+    font-size: 48%;
+  }
+
+  .navres {
+    display: block;
+  }
+
+  .formSerchbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rowblue {
+    width: auto;
+    height: auto;
+    position: unset;
+  }
+
+  .col-md-3 {
+    border: none;
+  }
+
+  .newstext {
+    width: 100%;
+  }
+
+  .resCol {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:430px) and (max-width:575px) {
+  html {
+    font-size: 52%;
+  }
+
+  .navres {
+    display: block;
+  }
+
+  .formSerchbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rowblue {
+    width: auto;
+    height: auto;
+    position: unset;
+  }
+
+  .col-md-3 {
+    border: none;
+  }
+
+  .newstext {
+    width: 100%;
+  }
+
+  .resCol {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:574px) and (max-width:767px) {
+  html {
+    font-size: 58%;
+  }
+
+  .navres {
+    display: block;
+  }
+
+  .formSerchbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rowblue {
+    width: auto;
+    height: auto;
+    position: unset;
+  }
+
+  .col-md-3 {
+    border: none;
+  }
+
+  .newstext {
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width:765px) and (max-width:991px) {
+  html {
+    font-size: 60%;
+  }
+
+  .navres {
+    display: block;
+  }
+
+  .formSerchbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rowblue {
+    z-index: -1;
+  }
+
+  .newstext {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:989px) and (max-width:1600px) {
+  .rowblue {
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width:1600px) and (max-width:2660px) {
+  .layout {
+    width: 1600px;
+    margin: 0 auto;
+  }
+
+  .rowblue {
+    z-index: -1;
+    width: 60rem;
+  }
+}
